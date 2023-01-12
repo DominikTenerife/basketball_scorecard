@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL';
+}
+
+.container {
+    margin: 10% 25%;
+    position: relative;
+    color: white;
+    width: 575px;
+    height: 385px;
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+}
+
+.boardtitle {
+margin: 68px 0 21px 0px;
+position: relative;
+width: 149px;
+height: 36px;
+
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 36px;
+
+text-align: center;
+
+color: #EEEEEE;
+
+
+    
+}
+
+.points{ 
+    position: relative;
+    margin: 21px 0px 26px 0px;
+    padding: 0;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    background: #080001;
+    text-align: center;
+    color: #F94F6D;
+    
+
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+    
+}
+
+#guestpoints-el {
+    margin: 0;
+    
+}
+
+#homepoints-el {
+    margin: 0;
+    font-size: 90px;
+}
+
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    width: 45px;
+height: 45px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 16px;
+
+}
